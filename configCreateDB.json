@@ -1,0 +1,12 @@
+[
+  {
+    "dbname": "oladb",
+    "dbuser": "olamy",
+    "file": "1.sql"
+  },
+  {
+    "dbname": "adeudb",
+    "dbuser": "adeumy",
+    "file": "2.sql"
+  }
+]

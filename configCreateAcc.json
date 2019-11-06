@@ -1,0 +1,87 @@
+[
+  {
+    "pack": [
+      ["name", "combiospack"],
+      ["quota", "8092"],
+      ["bwlimit", "1048576"],
+      ["maxftp", "0"],
+      ["maxpop", "20"],
+      ["max_emailacct_quota", "1024"],
+      ["maxlst", "0"],
+      ["maxsql", "1"],
+      ["maxsub", "5"],
+      ["maxpark", "5"],
+      ["maxaddon", "5"],
+      ["max_email_per_hour", "0"],
+      ["max_defer_fail_percentage", "100"],
+      ["cgi", "no"],
+      ["language", "es"]
+    ],
+    "account": [
+      ["domain", "combios.es"],
+      ["password", ""],
+      ["password2", ""],
+      ["contactemail", "soporteweb@nunsys.com"],
+      ["dkim", "no"],
+      ["spf", "no"],
+      ["useregns", "yes"],
+      ["mxcheck_remote", ""]
+    ]
+  },
+  {
+    "pack": [
+      ["name", "lowcost"],
+      ["quota", "50000"],
+      ["bwlimit", "1048576"],
+      ["maxftp", "0"],
+      ["maxpop", "20"],
+      ["max_emailacct_quota", "10240"],
+      ["maxlst", "5"],
+      ["maxsql", "1"],
+      ["maxsub", "5"],
+      ["maxpark", "5"],
+      ["maxaddon", "5"],
+      ["max_email_per_hour", "300"],
+      ["max_defer_fail_percentage", "100"],
+      ["cgi", "yes"],
+      ["language", "es"]
+    ],
+    "account": [
+      ["domain", "blckwd.es"],
+      ["password", ""],
+      ["password2", ""],
+      ["contactemail", "soporteweb@nunsys.com"],
+      ["dkim", "yes"],
+      ["spf", "yes"],
+      ["useregns", "yes"],
+      ["mxcheck_local", ""]
+    ]
+  },
+  {
+    "pack": [
+      ["name", "lowcost"],
+      ["quota", "8092"],
+      ["bwlimit", "1048576"],
+      ["maxftp", "2"],
+      ["maxpop", "200"],
+      ["max_emailacct_quota", "10240"],
+      ["maxlst", "0"],
+      ["maxsql", "2"],
+      ["maxsub", "5"],
+      ["maxpark", "5"],
+      ["maxaddon", "5"],
+      ["max_email_per_hour", "0"],
+      ["max_defer_fail_percentage", "100"],
+      ["cgi", "yes"],
+      ["language", "es"]
+    ],
+    "account": [
+      ["domain", "spb.es"],
+      ["password", ""],
+      ["password2", ""],
+      ["contactemail", "soporteweb@nunsys.com"],
+      ["useregns", "yes"],
+      ["mxcheck_local", ""]
+    ]
+  }
+]
